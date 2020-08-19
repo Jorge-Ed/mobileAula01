@@ -6,5 +6,5 @@ $(document).on("click", "#somar", function (){
 
   var resultado = parseFloat(valor1) + parseFloat(valor2);
 
-  $("resultado").val(resultado);
+  $("#resultado").val(resultado);
 });
